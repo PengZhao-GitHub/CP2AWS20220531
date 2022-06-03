@@ -13,10 +13,10 @@ const httpOptions = {
 })
 export class AccountService {
 
-  baseUrl:string = 'http://18.212.214.94:3000';
+  baseUrl:string = 'http://oauth.insurancecustomerportal.com:3000';
   profileapi:string = '/profile/';
 
-  tokenBaseUrl: string = 'http://18.212.214.94:5000/admin';  //Got CORS becuase fogot to add http
+  tokenBaseUrl: string = 'http://pas.insurancecustomerportal.com:5000/admin';  //Got CORS becuase fogot to add http
   getTokenApi: string = '/getToken/'
 
   constructor(private http: HttpClient) { }

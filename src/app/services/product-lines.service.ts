@@ -15,13 +15,13 @@ const httpOptions = {
 })
 export class ProductLinesService {
 
-  baseUrl:string = 'http://18.212.214.94:1337';
+  baseUrl:string = 'http://cms.insurancecustomerportal.com:1337';
   productLines:string = '/product-lines';
   products:string = '/products';
   showcases:string = '/showcases';
   coverages:string = '/coverages';
 
-  //productLinesUrl:string = 'http://18.212.214.94:1337/product-lines';
+  //productLinesUrl:string = 'http://cms.insurancecustomerportal.com:1337/product-lines';
 
   constructor(private http: HttpClient) { }
  
