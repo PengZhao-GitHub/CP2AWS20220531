@@ -16,7 +16,7 @@ export class AccountService {
   baseUrl:string = 'http://oauth.insurancecustomerportal.com:3000';
   profileapi:string = '/profile/';
 
-  tokenBaseUrl: string = 'http://pas.insurancecustomerportal.com:5000/admin';  //Got CORS becuase fogot to add http
+  tokenBaseUrl: string = 'https://pas.insurancecustomerportal.com/admin';  //Got CORS becuase fogot to add http
   getTokenApi: string = '/getToken/'
 
   constructor(private http: HttpClient) { }

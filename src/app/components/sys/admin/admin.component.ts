@@ -21,7 +21,7 @@ export class AdminComponent implements OnInit {
   AUTH_CALLBACK_URL:string = APIEndpoints.AUTH_CALLBACK_URL;
 
 
-  baseUrl:string = 'http://pas.insurancecustomerportal.com:5000/pas/api';
+  baseUrl:string = 'https://pas.insurancecustomerportal.com/pas/api';
   
   clientName: string = "Account";
   clientSecret: string = "PASAPISecret";

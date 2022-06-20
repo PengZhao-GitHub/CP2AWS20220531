@@ -11,7 +11,7 @@ export class ProductLinesComponent implements OnInit {
   productLines: any[];
   showcases: any[];
 
-  baseUrl:string = "http://cms.insurancecustomerportal.com:1337"
+  baseUrl:string = "https://cms.insurancecustomerportal.com"
 
   constructor(private productLineService: ProductLinesService) { }
 

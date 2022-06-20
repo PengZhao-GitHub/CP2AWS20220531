@@ -17,7 +17,7 @@ export class ProductsComponent implements OnInit {
   selectedInsurerUrl: string;
 
   showcases: any[];
-  baseUrl:string = "http://cms.insurancecustomerportal.com:1337"
+  baseUrl:string = "https://cms.insurancecustomerportal.com"
 
   showcaseVideo: string;
 

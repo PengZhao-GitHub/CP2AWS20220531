@@ -14,7 +14,7 @@ export class QuoteComponent implements OnInit {
 
   state$: Observable<object>; //state object
 
-  baseUrl: string = "http://cms.insurancecustomerportal.com:1337"
+  baseUrl: string = "https://cms.insurancecustomerportal.com"
 
   product = {};
   productDetail = {};

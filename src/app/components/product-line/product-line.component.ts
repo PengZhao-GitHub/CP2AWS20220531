@@ -9,7 +9,7 @@ export class ProductLineComponent implements OnInit {
 
   @Input() productLine;
 
-  baseUrl:string = "http://cms.insurancecustomerportal.com:1337"
+  baseUrl:string = "https://cms.insurancecustomerportal.com"
   logoUrl:string;
   companyLogoUrl: string;
 

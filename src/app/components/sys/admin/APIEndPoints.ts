@@ -1,25 +1,25 @@
 export const APIEndpoints = {
 
-    CMS_URL: 'http://cms.insurancecustomerportal.com:1337',
+    CMS_URL: 'https://cms.insurancecustomerportal.com',
     CMS_API_URLs: [
         {
             category: 'product lines',
-            url: 'http://cms.insurancecustomerportal.com:1337/product-lines'
+            url: 'https://cms.insurancecustomerportal.com/product-lines'
         },
         {
             category: 'products',
-            url: 'http://cms.insurancecustomerportal.com:1337/products'
+            url: 'https://cms.insurancecustomerportal.com/products'
         },
         {
             category: 'coverages',
-            url: 'http://cms.insurancecustomerportal.com:1337/coverages'
+            url: 'https://cms.insurancecustomerportal.com/coverages'
         },
         {
             category: 'showcases',
-            url :'http://cms.insurancecustomerportal.com:1337/showcases'  //http://35.78.194.40/
+            url :'https://cms.insurancecustomerportal.com/showcases'  //http://35.78.194.40/
         }
     ],
-    PAS_URL: 'http://pas.insurancecustomerportal.com:5000',
+    PAS_URL: 'https://pas.insurancecustomerportal.com',
     AUTH_GATEWAY_URL: 'http://oauth.insurancecustomerportal.com:3000',
     AUTH_URLs: [
         {

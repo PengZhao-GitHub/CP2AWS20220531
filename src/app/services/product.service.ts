@@ -14,7 +14,7 @@ const httpOptions = {
 })
 export class ProductService {
 
-  baseUrl:string = 'http://pas.insurancecustomerportal.com:5000/pas/api';
+  baseUrl:string = 'https://pas.insurancecustomerportal.com/pas/api';
   productapi:string = '/product/';
   quoteapi:string = '/quote';
 
