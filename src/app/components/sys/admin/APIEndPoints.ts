@@ -20,31 +20,31 @@ export const APIEndpoints = {
         }
     ],
     PAS_URL: 'https://pas.insurancecustomerportal.com',
-    AUTH_GATEWAY_URL: 'http://oauth.insurancecustomerportal.com:3000',
+    AUTH_GATEWAY_URL: 'https://oauth.insurancecustomerportal.com',
     AUTH_URLs: [
         {
             provider: 'google',
-            url: 'http://oauth.insurancecustomerportal.com:3000/auth/google'
+            url: 'https://oauth.insurancecustomerportal.com/auth/google'
         },
         {
             provider: 'facebook',
-            url: 'http://oauth.insurancecustomerportal.com:3000/auth/facebook'
+            url: 'https://oauth.insurancecustomerportal.com/auth/facebook'
         },
         {
             provider: 'twitter',
-            url: 'http://oauth.insurancecustomerportal.com:3000/auth/twitter'
+            url: 'https://oauth.insurancecustomerportal.com/auth/twitter'
         },
         {
             provider: 'linkedin',
-            url: 'http://oauth.insurancecustomerportal.com:3000/auth/linkedin'
+            url: 'https://oauth.insurancecustomerportal.com/auth/linkedin'
         },
         {
             provider: 'line',
-            url: 'http://oauth.insurancecustomerportal.com:3000/auth/line'
+            url: 'https://oauth.insurancecustomerportal.com/auth/line'
         },
         {
             provider: 'email',
-            url: 'http://oauth.insurancecustomerportal.com:3000/local/login'
+            url: 'https://oauth.insurancecustomerportal.com/local/login'
         }
     ],
     AUTH_CALLBACK_URL: 'http://localhost:4200/profile/:id'

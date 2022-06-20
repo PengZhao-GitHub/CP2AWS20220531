@@ -13,7 +13,7 @@ const httpOptions = {
 })
 export class AccountService {
 
-  baseUrl:string = 'http://oauth.insurancecustomerportal.com:3000';
+  baseUrl:string = 'https://oauth.insurancecustomerportal.com';
   profileapi:string = '/profile/';
 
   tokenBaseUrl: string = 'https://pas.insurancecustomerportal.com/admin';  //Got CORS becuase fogot to add http
